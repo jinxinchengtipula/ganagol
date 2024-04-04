@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    background: #186f0e;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    color: white;
+}
+
+.persona {
+    margin-bottom: 20px;
+    background: #f1f1f1;
+    align-items: center;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.datapersona {
+    border-right: solid 1px #bfbfbf;
+    padding-right: 10px;
+    margin-right: 10px;
+    width: 220px;
+}
+
+.datapersona p {
+    color: #9d9d9d;
+}
+
+.datapersona h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.action {
+    border: solid 1px #bfbfbf;
+    width: 80px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #a59d9d;
+    background: white;
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+}
